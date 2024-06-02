@@ -1,0 +1,40 @@
+:root {
+  --sidebar-width: 4.5em;
+}
+
+.sidebar-custom {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+
+.main-konten {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 1.5em;
+}
+
+.main-konten h2 {
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.main-konten p {
+  color: #444;
+  font-size: 1.25em;
+  line-height: 2;
+  text-align: justify;
+}
+
+@media (min-width: 572px) {
+  .main-konten {
+    margin-left: var(--sidebar-width);
+  }
+}
+
+@media (min-width: 992px) {
+  .main-konten {
+    padding: 2.5em;
+  }
+}
